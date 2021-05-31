@@ -11,9 +11,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
         - name: 'Checkout codes'
-          uses: actions/checkout@v2
+          uses: actions/checkout@v3
         - name: 'Set up Python'
-          uses: actions/setup-python@v2
+          uses: actions/setup-python@v3
           with:
             python-version: '3.7'
         - name: 'Install requirements'
@@ -35,4 +35,5 @@ jobs:
               && chromedriver --version
        
         - name: 'daka'
-          run: python ./jlu-health-reporter.py
+          run: |
+               python ./jlu-health-reporter.py
