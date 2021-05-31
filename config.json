@@ -1,0 +1,28 @@
+{
+	"transaction": "BKSMRDK",
+	"fields": {
+		"fieldDJXXyc": "1",
+		"fieldZtw": "1"
+	},
+	"conditions": {
+		"fieldDJXXyc": "(int(time()%86400/3600)+8)%24 in range(6,12)",
+		"fieldZtw": "(int(time()%86400/3600)+8)%24 in range(6,12)"
+	},
+	"tasks": [
+		{
+			"username": "qianmz1718",
+			"password": "13931763095qmz",
+			"fields": {
+				"fieldSQnj": "2118",
+				"fieldSQnj_Name": "2018",
+				"fieldSQbj": "24",
+				"fieldSQbj_Name": "171824",
+				"fieldSQxq": "2",
+				"fieldSQxq_Name": "南岭校区",
+				"fieldSQgyl": "3",
+				"fieldSQgyl_Name": "南岭三公寓",
+				"fieldSQqsh": "225"
+			}
+		}
+	]
+}
