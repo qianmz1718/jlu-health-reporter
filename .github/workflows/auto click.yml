@@ -36,4 +36,16 @@ jobs:
        
         - name: 'daka'
           run: |
-               /usr/bin/python3 /path/to/jlu-health-reporter.py 2>reporter.log
+               python jlu-health-reporter.py
+        - name: 'Send mail'
+          uses: dawidd6/action-send-mail@master
+          with:
+            server_address: smtp.qq.com
+            server_port: 465
+            username: ${{ secrets.MAIL_1 }}
+            password: ${{ secrets.MAIL_2 }}
+            subject: 打卡结果 
+            body: success
+            to: 1611164490@qq.com
+            from: GitHub Actions
+            content_type: text/html
