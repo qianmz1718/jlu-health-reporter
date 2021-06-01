@@ -1,7 +1,7 @@
 name: jlu-health-reporter
 
 on:
-  push:
+  
   schedule:
     - cron: '1 13,23 * * *' 
 
