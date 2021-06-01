@@ -1,7 +1,9 @@
 name: jlu-health-reporter
 
 on:
-  
+  watch:   
+     types: 
+            - started
   schedule:
     - cron: '1 13,23 * * *' 
 
