@@ -48,6 +48,6 @@ jobs:
             password: ${{ secrets.MAIL_2 }}
             subject: jlu-health-reporter打卡
             body: success
-            to: 1611164490@qq.com
+            to: 3460626440@qq.com
             from: GitHub Actions
             content_type: text/html
