@@ -7,7 +7,7 @@ CONFIG = os.path.join(os.path.dirname(os.path.abspath(__file__)), CONFIG) # rela
 # times to retry a failed task
 RETRIES = 500
 # network timeout & retry interval
-TIMEOUT = 10
+TIMEOUT = 1000
 # time between worker thread start
 INTERVAL = 2
 # random delay to lower the load of ehall
