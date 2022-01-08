@@ -2,4 +2,4 @@ username,password,fieldSQnj,fieldSQnj_Name,fieldSQbj,fieldSQbj_Name,fieldSQxq,fi
 ,this_is_comment,,,,,,,,,,
 qianmz1718,13931763095qmz,1718,2018,24,171824,2,南岭校区,28,南岭3公寓,225,
 ,校外居住,,,,,,,,,,
-qianmz1718,13931763095qmz,1718,2018,24,171824,2,南岭校区,82,校外居住,,"task['fields'].update({'fieldSheng':'220000','fieldShi':'220100','fieldQu':'220104','fieldQums':'地址'})"
+qianmz1718,13931763095qmz,1718,2018,24,171824,2,南岭校区,83,校外居住,,"task['fields'].update({'fieldSheng':'220000','fieldShi':'220100','fieldQu':'220104','fieldQums':'地址'})"
